@@ -1,0 +1,1 @@
+export const lectures_number = 5

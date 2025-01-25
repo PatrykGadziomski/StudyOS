@@ -1,0 +1,9 @@
+export const quest1 = 'Die Weisheit der Rollen';
+export const ziel1 = 'Identifiziere drei wesentliche Aspekte der Arbeits- und Organisationspsychologie, die Elian in seiner neuen Rolle als Berater einsetzen könnte, um die Effizienz der königlichen Armeen zu verbessern.';
+export const typ1 = 'Tägliche Quest';
+export const quest2 = 'Das soziale Geflecht';
+export const ziel2 = 'Entwickle ein Konzept zur Verbesserung sozialer Beziehungen innerhalb der Organisationen des Königreichs, inspiriert von den Lehren der Hawthorne-Studien.';
+export const typ2 = 'Wöchentliche Quest';
+export const quest3 = 'Der Probelauf';
+export const ziel3 = 'Präsentiere eine Lösung, die sowohl die Motivation als auch die Arbeitszufriedenheit innerhalb der königlichen Wachen verbessert, indem du Prinzipien des Scientific Managements anwendest.';
+export const typ3 = 'Spontane Quest';
