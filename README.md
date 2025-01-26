@@ -2,7 +2,7 @@
 
 ![Header](./public/banner.png)
 
-StudyOS was developed as part of a project at the Stuttgart Media University and is an AI-supported gamification learning platform.
+StudyOS was developed as part of a project at the Stuttgart Media University and is an AI-supported gamification learning platform.<br>
 This is merely a demo with only partially functional content.
 
 ## Getting Started
