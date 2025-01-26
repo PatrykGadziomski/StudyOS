@@ -1,5 +1,7 @@
 # StudyOS
 
+![Header](./public/banner.png)
+
 ## Getting Started
 
 1. Redirect to the repository on your divise
