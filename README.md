@@ -2,30 +2,50 @@
 
 ![Header](./public/banner.png)
 
+StudyOS was developed as part of a project at the Stuttgart Media University and is an AI-supported gamification learning platform.
+This is merely a demo with only partially functional content.
+
 ## Getting Started
 
-1. Redirect to the repository on your divise
+1. Clone the repository on your device
+
+```
+git clone https://github.com/PatrykGadziomski/StudyOS.git
+```
+
+2. Redirect to the repository on your device
 
 ```bash
 cd learning_app_lul
 ```
 
-2. Avtivate python enviroment
+2. Cretae python enviroment inside the project
+
+```
+python -m venv venv
+```
+INFO: There are some dependecies you have to install manually:
+```bash
+pip install markitdown
+pip install openai
+```
+
+3. Activate python envoriment
 ```bash
 .\.venv\scripts.\activate
 ```
 
-3. Run the prestart to generate all data from existig script
+4. Put your Skript in the ``./python_scripts/data`` folder and run the prestart to generate all data from existig script
 ```
 npm run prestart
 ```
 
-4. Run build
+5. Run build
 ```
 npm run build
 ```
 
-5. Run start and enjoy
+6. Run start and enjoy
 ```
 npm run start
 ```
