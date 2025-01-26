@@ -35,6 +35,13 @@ pip install openai
 .\.venv\scripts.\activate
 ```
 
+4. Don't forget to add your API Key to the following scripts:
+```bash
+1. ./python_scripts/main.py
+2. ./app/api/chat/route.ts
+3. ./app/api/chatnpc/route.ts
+```
+
 4. Put your Skript in the ``./python_scripts/data`` folder and run the prestart to generate all data from existig script
 ```
 npm run prestart
