@@ -47,7 +47,7 @@ The demo already have a dummy university script in the ``./python_scripts/data``
 ```
 npm run prestart
 ```
-PS: You also have to delete all of the generated files, if you want to experiment with the outputs (Forgot to implement a replacement function... -.-)
+PS: You also have to delete all of the generated files (e.g. all files in ``./app/data``), if you want to experiment with the outputs (Forgot to implement a replacement function... -.-)
 
 5. Run build
 ```
