@@ -21,7 +21,7 @@ convert_pdf_to_md(r'python_scripts\data\lecture_doc.pdf',
                   r'python_scripts\data\extracted_md.md')
 
 # Normaly the first chapter should be extracted via a function
-# Bexuase of complexity, the first chapter is already stores as a markdown file
+# Becuase of complexity, the first chapter is already stores as a markdown file
 
 text = read_markdown(r'C:\Users\danna\learning_app_lul\python_scripts\data\first_chapter.md')
 text_without_umlaits = replace_umlauts(text)
