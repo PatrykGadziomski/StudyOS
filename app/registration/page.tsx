@@ -35,18 +35,18 @@ const RegistrationPage = () => {
     // Check each field
     Object.keys(formData).forEach((key) => {
       if (!formData[key as keyof FormData].trim()) {
-        newErrors[key] = 'This field is required';
+        newErrors[key] = 'Das Feld ist verpflichtend';
       }
     });
 
     // Additional email validation
     if (formData.email && !/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = 'Please enter a valid email address';
+      newErrors.email = 'Bitte gebe eine gültige E-Mail Adresse an';
     }
 
     // Additional age validation
     if (formData.age && (isNaN(Number(formData.age)) || Number(formData.age) <= 0)) {
-      newErrors.age = 'Please enter a valid age';
+      newErrors.age = 'Bitte gebe ein gültiges Alter an';
     }
 
     setErrors(newErrors);

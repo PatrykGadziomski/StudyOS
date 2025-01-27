@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Home, Book, User, Menu } from "lucide-react";
 
-
 const WelcomePage = () => {
   return (
     <div className="min-h-screen bg-white text-black">
@@ -36,12 +35,13 @@ const WelcomePage = () => {
         <div className="max-w-md w-full mx-4 border rounded-lg">
           <div className="bg-grey rounded-lg overflow-hidden shadow-lg">
             {/* Image Container */}
-            <div className="relative w-full h-64 bg-gray-100">
+            <div className="relative w-full aspect-[4/3] bg-gray-100">
               <Image
                 src="/gamemaster.png"
                 alt="Wise magician"
-                layout="fill"
-                className=""
+                fill
+                style={{ objectFit: 'cover', objectPosition: 'center' }}
+                priority
               />
             </div>
 
