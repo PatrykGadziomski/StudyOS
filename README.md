@@ -43,6 +43,7 @@ pip install openai
 ```
 
 4. Put your university script in the ``./python_scripts/data`` folder and run the prestart to generate all data from existig university script. For now, it works the best with only one chapter of the university script.
+The demo already have a dummy university script in the ``./python_scripts/data``, so for testing only you don't have to upload any files.
 ```
 npm run prestart
 ```
