@@ -42,7 +42,7 @@ pip install openai
 3. ./app/api/chatnpc/route.ts
 ```
 
-4. Put your Skript in the ``./python_scripts/data`` folder and run the prestart to generate all data from existig script
+4. Put your university script in the ``./python_scripts/data`` folder and run the prestart to generate all data from existig university script. For now, it works the best with only one chapter of the university script.
 ```
 npm run prestart
 ```
